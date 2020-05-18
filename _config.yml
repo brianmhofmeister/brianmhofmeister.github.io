@@ -21,13 +21,19 @@
 title: The Simple Bit
 email: brianmhofmeister@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Views expressed on this site are solely those of the author.
+  A developer's journey toward bliss.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://brianmhofmeister.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  brianmhofmeister
 
 # Build settings
-theme: minima
+#theme: minima
+
+remote_theme: "jekyll/minima"
+
+plugins:
+  - jekyll-remote-theme
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
