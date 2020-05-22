@@ -27,7 +27,6 @@ url: "https://brianmhofmeister.github.io" # the base hostname & protocol for you
 github_username:  brianmhofmeister
 
 # Build settings
-#theme: minima
 
 remote_theme: "jekyll/minima"
 
@@ -54,3 +53,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+minima:
+  skin: dark
+  social_links:
+    github: brianmhofmeister
+    linkedin: brianhofmeister
