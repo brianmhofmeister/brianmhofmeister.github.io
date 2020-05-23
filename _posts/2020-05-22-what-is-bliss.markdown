@@ -70,7 +70,7 @@ Code usually grows over time. With no testing, certainly you increase the risk o
 
 With modern continuous delivery methods and cloud based services, the need for confidence is even greater. In a cloud service, when a bug is found in production, the mean time to repair is greatly reduced through automated testing. Reduced time to repair defects, over time, should increase mean time between failures, which increases availability and in such cases likely improves revenue outlook as well. When a failure does occur, adding a test for that failure helps to ensure the issue stays resolved, further improving average quality over time.
 
-Without automated testing, it is nearly impossible to evaluate the metrics above, such as mean time between failure or mean time to repair. There's a saying, you can only manage what you measure, and in software, risk to release is perhaps the most important measurement required.
+Without automated testing, it is nearly impossible to improve the metrics above, such as mean time between failure or mean time to repair. There's a saying, you can only manage what you measure, and in software, risk to release is perhaps the most important measurement required.
 
 ## Summary
 
