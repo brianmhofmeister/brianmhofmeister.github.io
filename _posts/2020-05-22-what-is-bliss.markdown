@@ -23,7 +23,7 @@ That was a mouthful. What about those traits I mentioned?  These are drawn from 
 
 ### Appropriate Modularity
 
-Modularlity is hardly new, it should not be controversial, and it is possible in some form in pretty much every programming environment. What do I mean by "appropriate" modularity? In the simplest terms possible, I believe a module should provide a m(inimal amount of functionality with obviouis purpose. The [Single Responsiblity Principle (SRP)](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) says that a module should have only one reason to change. As indicated in Uncle Bob's peice, modules are best separated by functional concern, which again leads us to higher levels of cohesion. We can loosen coupling in various ways:
+Modularlity is hardly new, it should not be controversial, and it is possible in some form in pretty much every programming environment. What do I mean by "appropriate" modularity? In the simplest terms possible, I believe a module should provide a minimal amount of functionality with obviouis purpose. The [Single Responsiblity Principle (SRP)](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) says that a module should have only one reason to change. As indicated in Uncle Bob's piece, modules are best separated by functional concern, which again leads us to higher levels of cohesion. We can loosen coupling in various ways:
 
 1. Use simple data structures (maps, lists) as interface parameters rather than complex types
 2. Apply the [dependency inversion principle](https://deviq.com/dependency-inversion-principle/)
@@ -32,7 +32,7 @@ Modularlity is hardly new, it should not be controversial, and it is possible in
 
 I know. The notion that code functions should be small is so often stated it should seem obvious. I have found, however, that so many projects I have worked on flatly ignore this idea. I've worked with code in many languages (C, C++, RPG, Java) and seeing functions with 100 or more lines was not uncommon. What's the big deal, you might ask. So what if the code in one function here and there gets kind of long. Most of the functions are short.
 
-The dilemma with long functions is a matter of what we expect from readers of the code. I believe using a debugger to understand what a peice of code is doing should be a last resort. The intent of the code should be as obvious as possible. Shorter functions lend themselves to being much more obvious. Secondarily, a longer function has a higher liklihood of needing to change for more than one reaason, which violates the SRP.
+The dilemma with long functions is a matter of what we expect from readers of the code. I believe using a debugger to understand what a piece of code is doing should be a last resort. The intent of the code should be as obvious as possible. Shorter functions lend themselves to being much more obvious. Secondarily, a longer function has a higher liklihood of needing to change for more than one reaason, which violates the SRP.
 
 Imperative logic creates a heavy mind-burden on the reader of code. Longer functions will no doubt contain a lot of imperative code. Declarative functions tend to be named with more intent, their meaning becomes more obvious. The ["tell, don't ask"](https://martinfowler.com/bliki/TellDontAsk.html) principle provides one manner in which to produce more declarative function interfaces. It's not a silver bullet, but it helps.
 
