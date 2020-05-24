@@ -6,12 +6,12 @@ categories: general
 author: Brian M. Hofmeister
 ---
 
-[Wide Awake Developers](https://www.michaelnygard.com/)
+[Coding Horror](https://blog.codinghorror.com/)
 
 [Joel On Software](https://www.joelonsoftware.com/)
-
-[Coding Horror](https://blog.codinghorror.com/)
 
 [Martin Fowler](https://martinfowler.com/)
 
 [Wes Bos](https://wesbos.com/blog)
+
+[Wide Awake Developers](https://www.michaelnygard.com/)
