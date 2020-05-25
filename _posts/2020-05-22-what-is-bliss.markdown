@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What is bliss?"
+title:  "What is developer bliss?"
 date:   2020-05-22 14:36:00 -0500
 categories: general
 author: Brian M. Hofmeister
@@ -23,14 +23,14 @@ That was a mouthful. What about those traits I mentioned?  These are drawn from 
 
 ### Appropriate Modularity
 
-Modularlity is hardly new, it should not be controversial, and it is possible in some form in pretty much every programming environment. What do I mean by "appropriate" modularity? In the simplest terms possible, I believe a module should provide a minimal amount of functionality with obviouis purpose. The [Single Responsiblity Principle (SRP)](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) says that a module should have only one reason to change. As indicated in Uncle Bob's piece, modules are best separated by functional concern, which again leads us to higher levels of cohesion. We can loosen coupling in various ways:
+Modularlity is hardly new, it should not be controversial, and it is possible in some form in pretty much every programming environment. What do I mean by "appropriate" modularity? In the simplest terms possible, I believe a module should provide a minimal amount of functionality with obviouis purpose. The [Single Responsiblity Principle (SRP)](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) says that a module should have only one reason to change. As indicated in Uncle Bob's piece, modules are best separated by functional concern, which leads us to higher levels of cohesion. We can loosen coupling in various ways:
 
 1. Use simple data structures (maps, lists) as interface parameters rather than complex types
 2. Apply the [dependency inversion principle](https://deviq.com/dependency-inversion-principle/)
 
 ### Small functions, minimize imperative logic
 
-I know. The notion that code functions should be small is so often stated it should seem obvious. I have found, however, that so many projects I have worked on flatly ignore this idea. I've worked with code in many languages (C, C++, RPG, Java) and seeing functions with 100 or more lines was not uncommon. What's the big deal, you might ask. So what if the code in one function here and there gets kind of long. Most of the functions are short.
+I know. The notion that code functions should be small is so often stated it should seem obvious. I have found, however, that so many projects I have worked on flatly ignore this idea. I've worked with code in many languages (C, C++, RPG, Java) and seeing functions with 100 or more (many, many more) lines was not uncommon. What's the big deal, you might ask. So what if the code in one function here and there gets kind of long. Most of the functions are short.
 
 The dilemma with long functions is a matter of what we expect from readers of the code. I believe using a debugger to understand what a piece of code is doing should be a last resort. The intent of the code should be as obvious as possible. Shorter functions lend themselves to being much more obvious. Secondarily, a longer function has a higher liklihood of needing to change for more than one reaason, which violates the SRP.
 
@@ -50,7 +50,7 @@ There are some code libraries out there (Java especially) that are defacto stand
 
 When including an external dependency it is *critical* in my opinion to use various techniques (inversion of control, facade) to guarantee that dependency is closely held by a single module of a project, and that module wraps and fronts the dependency with interfaces which are under my control. I can then mock my interfaces to test my interactions behave as expected within my code, and I should not need to worry about testing the dependency itself. If the dependency changes in a way that breaks my uses of it, or if I want to add some new use case requiring that dependency, my changes are isolated to one module, and are far simpler to test and integrate.
 
-Through isolation of the type described, the surface area of the contract between a project and its dependency can also be managed, and minimized. The integration module only provides the functions necessary to interact with the depedent library to satisfy known use cases, nothing more, nothing less. This restricts the possibility of abusing the use of a dependent library and may, in some cases, reveal that the dependency is simply not needed if a simple implementation is possible.  Careful management of this contract surface also means that when new use cases require interaction with the dependency, they can be added on-demand.
+Through isolation of the type described, the surface area of the contract between a project and its dependency can also be managed, and minimized. The integration module only provides the functions necessary to interact with the depedent library to satisfy known use cases, nothing more, nothing less. This restricts the possibility of abusing the use of a dependent library and may, in some cases, reveal that the dependency is not needed if a simple implementation is possible.  Careful management of this contract surface also means that when new use cases require interaction with the dependency, they can be added on-demand.
 
 ### Automate all the tests
 
@@ -62,7 +62,7 @@ Okay. What is a bug? I know it's a snarky question. Is slower than usual perform
 
 The problem with defining a goal of testing as "eliinating bugs" is that you cannot eliminate bugs. Bugs happen. Always. So why test?
 
-Testing is about managing risk. In some environments the risks associated with new software releases can result in loss of life. Certainly, bugs in such cases can be tragically bad. Some bugs, however, even in such critical environments, are less risky, and fixing them may actually cause more harm. So we cannot view testing only through the lens of eliminating defects, we must view it in terms of evaluating the risks of releasing software.
+Testing is about managing risk. In some environments the risks associated with new software releases can result in loss of life. Certainly, bugs in such cases can be tragically bad. Some bugs, however, even in such critical environments, are less risky, and fixing them may actually cause more harm. Thus, we cannot view testing only through the lens of eliminating defects, we must view it in terms of evaluating the risks of releasing software.
 
 With that settled, why do we need to automate tests?
 
@@ -70,7 +70,7 @@ Code usually grows over time. With no testing, certainly you increase the risk o
 
 With modern continuous delivery methods and cloud based services, the need for confidence is even greater. In a cloud service, when a bug is found in production, the mean time to repair is greatly reduced through automated testing. Reduced time to repair defects, over time, should increase mean time between failures, which increases availability and in such cases likely improves revenue outlook as well. When a failure does occur, adding a test for that failure helps to ensure the issue stays resolved, further improving average quality over time.
 
-Without automated testing, it is nearly impossible to improve the metrics above, such as mean time between failure or mean time to repair. There's a saying, you can only manage what you measure, and in software, risk to release is perhaps the most important measurement required.
+Without automated testing, it is substantially more difficult to improve the metrics above, such as mean time between failure or mean time to repair. There's a saying, you can only manage what you measure, and in software, risk to release is perhaps the most important measurement required.
 
 ## Summary
 
