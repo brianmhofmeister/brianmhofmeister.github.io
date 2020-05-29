@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What Interests Me Now"
+title:  "Software Trends I'm Watching"
 date:   2020-05-28 19:33:00 -0500
 categories: tech learning
 author: Brian M. Hofmeister
