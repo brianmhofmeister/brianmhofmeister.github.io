@@ -2,7 +2,7 @@
 layout: post
 title:  "What Interests Me Now"
 date:   2020-05-28 19:33:00 -0500
-categories: tech, learning
+categories: tech learning
 author: Brian M. Hofmeister
 ---
 
