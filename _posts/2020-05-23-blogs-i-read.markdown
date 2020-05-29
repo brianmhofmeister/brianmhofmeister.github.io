@@ -12,6 +12,8 @@ author: Brian M. Hofmeister
 
 [Martin Fowler](https://martinfowler.com/)
 
+[Phil Hawksworth](https://www.hawksworx.com/blog)
+
 [Wes Bos](https://wesbos.com/blog)
 
 [Wide Awake Developers](https://www.michaelnygard.com/)
