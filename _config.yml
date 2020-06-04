@@ -21,11 +21,11 @@
 title: The Simple Bit
 author:
   name: Brian M. Hofmeister
-  email: brianmhofmeister@gmail.com
+  email: brian@brianmhofmeister.com
 description: >- # this means to ignore newlines until "baseurl:"
   A developer's journey toward bliss.  
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://brianmhofmeister.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://brianmhofmeister.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  brianmhofmeister
 
 # Build settings
