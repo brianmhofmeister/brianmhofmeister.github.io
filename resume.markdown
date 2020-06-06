@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Resumé
-permalink: /resume.pdf
+permalink: /assets/pdf/resume.pdf
 ---
