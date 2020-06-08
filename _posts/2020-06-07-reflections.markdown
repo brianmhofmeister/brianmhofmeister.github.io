@@ -13,4 +13,4 @@ Last night I watched the 2016 documentary "13th" about the criminalization of be
 
 I want America to live up to its promise as a beacon to the oppressed. I do not want to continue to live in an America that is oppressive.  I stand with the Black Community. I will use my vote as an American to choose candidates who can create change, I will support black or brown candidates who can level the playing field by getting us closer to the ideal of equal representation in city, state, and federal government. We need voices in government willing to right the wrongs of our past, we need to hear those voices, to lift them up. We need to be better.
 
-Black. Lives. Matter.
+Black Lives Matter.
