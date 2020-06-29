@@ -19,3 +19,13 @@ author: Brian M. Hofmeister
 [Software Engineering Daily](https://softwareengineeringdaily.com/)
 
 [Syntax](https://syntax.fm/)
+
+[Podcasts from Changelog](https://changelog.com/podcasts)
+
+[Code\[ish\] from Heroku](https://heroku.com/podcasts)
+
+[Software Engineering Radio](https://se-radio.net)
+
+[Microsoft Research Podcast](https://www.microsoft.com/en-us/research/podcast)
+
+[No Fluff Just Stuff Podcast](https://nofluffjuststuff.com/podcast)
