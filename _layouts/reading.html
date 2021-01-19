@@ -8,8 +8,18 @@ layout: default
 
 {{ content }}
 
+<h2>2021</h2>
 <ul>
-    {% for book in site.data.books %}
+    {% for book in site.data.books2021 %}
+    <li>
+        <a href="{{ book.url }}">{{ book.title }}</a> by {{ book.author }}
+    </li>
+    {% endfor %}
+</ul>
+
+<h2>2020</h2>
+<ul>
+    {% for book in site.data.books2020 %}
     <li>
         <a href="{{ book.url }}">{{ book.title }}</a> by {{ book.author }}
     </li>
