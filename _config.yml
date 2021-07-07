@@ -35,7 +35,6 @@ remote_theme: "jekyll/minima"
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-  - jekyll-admin
 
 defaults:
   - scope:
@@ -68,3 +67,4 @@ minima:
   social_links:
     github: brianmhofmeister
     linkedin: brianhofmeister
+    twitter: hoffymn
