@@ -23,7 +23,7 @@ That was a mouthful. What about those traits I mentioned?  These are drawn from 
 
 ### Appropriate Modularity
 
-Modularlity is hardly new, it should not be controversial, and it is possible in some form in pretty much every programming environment. What do I mean by "appropriate" modularity? In the simplest terms possible, I believe a module should provide a minimal amount of functionality with obviouis purpose. The [Single Responsiblity Principle (SRP)](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) says that a module should have only one reason to change. As indicated in Uncle Bob's piece, modules are best separated by functional concern, which leads us to higher levels of cohesion. We can loosen coupling in various ways:
+Modularlity is hardly new, it should not be controversial, and it is possible in some form in pretty much every programming environment. What do I mean by "appropriate" modularity? In the simplest terms possible, I believe a module should provide a minimal amount of functionality with obvious purpose. The [Single Responsiblity Principle (SRP)](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html) says that a module should have only one reason to change. As indicated in Uncle Bob's piece, modules are best separated by functional concern, which leads us to higher levels of cohesion. We can loosen coupling in various ways:
 
 1. Use simple data structures (maps, lists) as interface parameters rather than complex types
 2. Apply the [dependency inversion principle](https://deviq.com/dependency-inversion-principle/)
