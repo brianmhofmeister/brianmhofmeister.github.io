@@ -1,31 +1,21 @@
 ---
 layout: post
 title:  "Podcasts I Listen To"
-date:   2020-05-24 10:45:00 -0500
+date:   2024-03-18 20:00:00 -0500
 categories: general
 author: Brian M. Hofmeister
 ---
 
-[A Bootiful Podcast](https://bootifulpodcast.fm/)
-
-[Code Newbie](https://www.codenewbie.org/)
-
-[Full Stack Radio](https://fullstackradio.simplecast.com/)
-
-[JAMstack Radio](https://www.heavybit.com/library/podcasts/jamstack-radio/)
-
-[Programming Throwdown](https://www.programmingthrowdown.com/)
-
-[Software Engineering Daily](https://softwareengineeringdaily.com/)
-
 [Syntax](https://syntax.fm/)
+
+[Acquired](https://acquired.fm/)
+
+[Python Bytes](https://pythonbytes.fm/)
+
+[Talk Python to Me](https://talkpython.fm/)
 
 [Podcasts from Changelog](https://changelog.com/podcasts)
 
-[Code\[ish\] from Heroku](https://heroku.com/podcasts)
+[How I Built This with Guy Raz](https://wondery.com/shows/how-i-built-this/)
 
-[Software Engineering Radio](https://se-radio.net)
-
-[Microsoft Research Podcast](https://www.microsoft.com/en-us/research/podcast)
-
-[No Fluff Just Stuff Podcast](https://nofluffjuststuff.com/podcast)
+[The Great Creators with Guy Raz](https://wondery.com/shows/the-great-creators-with-guy-raz/)
