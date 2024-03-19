@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Simple Bit
+title: the simple bit
 author:
   name: Brian M. Hofmeister
   email: brian@brianmhofmeister.com
@@ -65,5 +65,5 @@ defaults:
 minima:
   skin: classic
   social_links:
-    github: brianmhofmeister
-    linkedin: brianhofmeister
+    - { platform: github,  user_url: "https://github.com/brianmhofmeister" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/brianhofmeister" }
